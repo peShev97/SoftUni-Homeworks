@@ -1,0 +1,10 @@
+Create simple calculator that supports four operations:
+  Addition
+  Subtraction
+  Multiply
+  Divide
+
+Requirements
+  Java SDK 11
+  Spring framework (Spring MVC + Spring Boot + Spring Data) ver. 2.1.0.RELEASE
+  Thymeleaf view engine

@@ -1,0 +1,24 @@
+Paris has entered Sparta and he has to fight in order to abduct the wife of Menelaus, Helen.
+After Paris got into Sparta, he has to fight his way to Helen’s chamber.
+In order to do that, he has to walk through the city where dangerous enemies are watching out for threats,
+but he also has to be careful not to get exhausted and not be able to proceed with his mission.
+If Paris successfully reaches to her chamber, they safely escape from the Spartans.
+A standard field of Sparta looks like this:
+------H---
+-------S--
+--S-------
+----------
+-----P----
+P -> Paris, the player character
+S -> Spartan, enemy
+H -> Helen
+- -> Empty space
+Each turn proceeds as follows:
+•	First, Spartan spawns on the given indices.
+•	Then, Paris moves in a direction, which decreases his energy by 1.
+o	It can be “up”, “down”, “left”, “right”
+o	If Paris tries to move outside of the field, he doesn’t move but still has his energy decreased.
+•	If an enemy is on the same cell where Paris moves, Paris fights him, which decreases his energy by 2.
+If Paris’ energy drops at 0 or below, he dies and you should mark his position with ‘X’.
+•	If Paris kills the enemy successfully, the enemy disappears.
+•	If Paris reaches the index where Helen is, they both run away (disappear from the field), even if his energy is 0 or below.

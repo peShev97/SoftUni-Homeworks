@@ -1,0 +1,18 @@
+There is something, really annoying in the C# - language. It is called a "Tuple". It is a class, which contains two objects.
+The first one is "item1" and the second one is "item2".
+It is kind of like a Map.Entry except - it simply has items, which are neither key nor value.
+The annoyance is coming from the fact, that you have no idea what these objects are holding.
+The class name is telling you nothing, the methods which it has – too.
+So let’s say we could try to implement it in Java, just for practicing generics.
+The task:
+Create a class "Tuple", which is holding two objects. Like we said, the first one, will be "item1" and the second one -  "item2".
+The tricky part here is to make the class hold generics.
+This means, that when you create a new object of class - "Tuple", there should be a way to explicitly,
+specify both the items type separately.
+
+
+//Extended condition
+Now you are aware of a Class which is probably a bad practice to use. Anyway, it is a nice example of using generics.
+Our next task is to create another Tuple. This time, our task is harder. 
+Create a Class Threeuple. Its name is telling us, that it will hold no longer, just a pair of objects.
+The task is simple, our Threeuple should hold three objects. Make it have getters and setters. You can even extend the previous class.

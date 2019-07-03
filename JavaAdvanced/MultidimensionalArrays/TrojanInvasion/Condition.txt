@@ -1,0 +1,11 @@
+Trojan army marches upon Sparta.
+Vicious waves of Trojan warriors are getting ready to attack the Spartan defense and make their way into the city.
+First, you will be given a number equal to the waves of Trojan warriors.
+On the second line you will be given the plates of the Spartan defense.
+Then, on each next line (for each wave), you receive the power of each Trojan warrior.
+Additionally, on every third wave, the Spartans build a new plate (extra line with a single integer) before the Trojan
+warriors attack. In order to enter the city, the Trojans have to destroy all the plates.
+Until there are no more plates or warriors, the last Trojan warrior attacks the first plate:
+•	If the warrior’s value is greater, he destroys the plate and lowers his value by the plate’s value, then attacks the next plate, until his value reaches 0.
+•	If the plate’s value is greater, the warrior dies and the plate decreases its value by the warrior’s value.
+•	If their values are equal, the warrior dies and the plate is destroyed.

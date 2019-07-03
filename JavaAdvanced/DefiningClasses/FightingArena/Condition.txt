@@ -1,0 +1,47 @@
+For this problem you should create a new package named "arena",  which should hold inside the classes Gladiator , Stat, Weapon and FightingArena.
+Create Java class Weapon that has the following structure:
+•	size: int
+•	solidity: int
+•	sharpness: int
+•	Getter getSize()
+•	Getter getSolidity()
+•	Getter getSharpness()
+
+Create Java class Stat that has the following structure:
+•	strength: int
+•	flexibility: int
+•	agility: int
+•	skills: int
+•	intelligence: int
+•	Getter getStrength()
+•	Getter getFlexibility()
+•	Getter getAgility()
+•	Getter getSkills()
+•	Getter getIntelligence()
+
+Create Java class  Gladiator that has the following structure:
+•	name:  String
+•	stat:  Stat
+•	weapon:  Weapon
+•	Getter getName()
+•	Getter getStatPower() : int – return the sum of the stat properties 
+•	Getter getWeaponPower(): int - return the sum of the weapon properties.
+•	Getter getTotalPower(): int - return the sum of the stat properties plus the sum of the weapon properties
+•	Method toString() which returns the information about a single Gladiator object in the following format:
+"{gladiatorName} – {gladiatorTotalPower}"
+"  Weapon Power: {gladiatorWeaponPower}"
+"  Stat Power: {gladiatorStatPower}"
+
+Write a Java class FightingArena that has gladiators (a collection which stores the entity Gladiator).
+All entities inside the arena have the same properties
+
+•	Field gladiators – collection that holds added entities
+•	Field name - String
+•	Method add(entity) – adds an entity to the Data
+•	Method remove(name) – removes an entity by given Gladiator name.
+•	Method getGladiatorWithHighestStatPower() – returns the Gladiator which poses the Stat with the highest stat power.
+•	Method getGladiatorWithHighestWeaponPower() – returns the Gladiator which poses the Weapon with the highest weapon power.
+•	Method getGladiatorWithHighestTotalPower() – returns the Gladiator who has the highest total power.
+•	Getter getCount – returns the number of stored entities
+•	?verride toString() in following format:
+"{arenaName} – {countOfGladiators} gladiators are participating."

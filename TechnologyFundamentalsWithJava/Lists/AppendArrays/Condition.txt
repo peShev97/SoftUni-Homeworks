@@ -1,0 +1,4 @@
+Write a program to append several array of numbers.
+arrays are separated by ‘|’.
+Values are separated by spaces (‘ ’, one or several)
+Order the arrays from the last to the first, and their values from left to right.
