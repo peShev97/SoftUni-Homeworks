@@ -1,0 +1,6 @@
+Create a class Stack which can store only strings and has the following functionality:
+  Private field: data: ArrayList&lt;String&gt;
+  Public method: push(String item): void
+  Public method: pop(): String
+  Public method: peek(): String
+  Public method: isEmpty(): boolean
