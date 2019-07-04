@@ -1,0 +1,8 @@
+Create a hierarchy(package) of animals. Your program should have three different animals – Dog, Frog and Cat.
+Deeper in the hierarchy you should have two additional classes – Kitten and Tomcat. Kittens are "Female" and
+Tomcats are "Male". All types of animals should be able to produce some kind of sound - String
+produceSound(). For example, the dog should be able to bark. Your task is to model the hierarchy and test its
+functionality. Create an animal of each kind and make them all produce sound.
+You will be given some lines of input. Each two lines will represent an animal. On the first line will be the type of
+animal and on the second – the name, the age and the gender. When the command "Beast!" is given, stop the
+input and print all the animals in the format shown below.
