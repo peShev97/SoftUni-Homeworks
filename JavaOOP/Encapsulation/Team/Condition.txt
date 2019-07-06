@@ -1,0 +1,13 @@
+Create a Team class. Add to this team all person you read. All person younger than 40 go in first team, others go in
+reverse team. At the end print first and reserve team sizes.
+The class should have private fields for:
+  name: String
+  firstTeam: List&lt;Person&gt;
+  reserveTeam: List&lt;Person&gt;
+The class should have constructors:
+  Team(String name)
+The class should also have private method for setName and public methods for:
+  getName(): String
+  addPlayer(Person person): void
+  getFirstTeam(): List&lt;Person&gt; (Collections.unmodifiableList)
+  getReserveTeam(): List&lt;Person&gt; (Collections.unmodifiableList)

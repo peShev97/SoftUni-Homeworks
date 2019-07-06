@@ -1,0 +1,18 @@
+Create a class Person, which should have private fields for:
+  firstName: String
+  lastName: String
+  age: int
+  toString() - override
+
+Read person with their names, age and salary. Read percent bonus to every person salary. People younger than 30
+get half bonus. Expand Person from previous task. Add salary field and getter and setter with proper access.
+New fields and methods
+  salary: double
+  increaseSalary(double bonus)
+
+Expand Person with proper validation for every field:
+  Names must be at least 3 symbols
+  Age must not be zero or negative
+  Salary can&#39;t be less than 460.0
+Print proper message to end user (look at example for messages).
+Don't use System.out.println() in Person class.
