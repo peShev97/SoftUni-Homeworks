@@ -1,3 +1,4 @@
+package Encapsulation.PizzaCalories;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -30,7 +31,7 @@ public class Pizza {
 
     private void setName(String name) {
         if (name.trim().length() < 1 || name.trim().length() > 15) {
-            throw new IllegalArgumentException("Pizza name should be between 1 and 15 symbols");
+            throw new IllegalArgumentException("Pizza name should be between 1 and 15 symbols.");
         }
 
         this.name = name;

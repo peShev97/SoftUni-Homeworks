@@ -1,3 +1,4 @@
+package Encapsulation.PizzaCalories;
 
 public class Topping {
     private String toppingType;
