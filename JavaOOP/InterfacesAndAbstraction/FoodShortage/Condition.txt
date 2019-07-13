@@ -1,0 +1,5 @@
+Define a class Rebel which has a name, age and group (String), names are unique - there will never be 2
+Rebels/Citizens or a Rebel and Citizen with the same name. Define an interface Buyer which defines a methods
+buyFood() and a getFood(). Implement the Buyer interface in the Citizen and Rebel class, both Rebels and Citizens
+start with 0 food, when a Rebel buys food his food increases by 5, when a Citizen buys food his food increases by
+10.
