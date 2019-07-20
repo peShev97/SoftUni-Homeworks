@@ -1,0 +1,8 @@
+Check all fields and methods access modifiers. Sort each category of members alphabetically.
+Print on console all mistakes in format:
+  Fields
+{fieldName} must be private!
+  Getters
+{methodName} have to be public!
+  Setters
+{methodName} have to be private!
